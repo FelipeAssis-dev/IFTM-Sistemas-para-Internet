@@ -116,6 +116,40 @@ h1, h2{
     width: 60%;
     text-align: justify;
 }
+#quarta{
+    padding: 30px;
+}
+#quinta{
+    padding: 30px;
+}
+#quinta p{
+    margin: 20px 0px;
+}
+#sexta{
+    padding: 30px;
+    text-align: justify;
+}
+#sexta p{
+    margin: 10px 0px;
+}
+#sexta div{
+    width: 80%;
+}
+#sexta div img{
+    width: 320px;
+}
+footer{
+    background-color: black;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    margin: auto;
+    color: white;
+    font-size: 20px;
+}
 
 @media (min-width: 768px){
    
@@ -150,5 +184,28 @@ h1, h2{
         padding: 20px;
         flex-direction: column;
         align-items: center;
+    }
+    #quarta{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        padding: 60px;
+    }
+    #quarta div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #sexta{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #sexta div img{
+        width: 100%;
+    }
+    #sexta button{
+        margin: 20px 30px;
     }
 }

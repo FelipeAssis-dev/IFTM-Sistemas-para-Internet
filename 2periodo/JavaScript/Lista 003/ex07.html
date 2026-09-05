@@ -2,11 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body>  <table class="tabela-externa">
+        <tr>
+            <td>
+                <table class="caixa-login">
+                    <tr>
+                        <td colspan="3" class="titulo">Acesso ao Sistema</td>
+                    </tr>
+                    <tr>
+                        <td class="rotulo">Login</td>
+                        <td colspan="2"><input type="text" id="login" name="login"></td>
+                    </tr>
+                    <tr>
+                        <td class="rotulo">Senha</td>
+                        <td><input type="password" id="senha" name="senha" maxlength="8"></td>
+                        <td class="obs">(max. 8 caracteres)</td>
+                    </tr>
+                    <tr>
+                        <td class="rotulo">Confirmar Senha</td>
+                        <td><input type="password" id="confirmarSenha" name="confirmarSenha" maxlength="8"></td>
+                        <td class="obs">(max. 8 caracteres)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="botoes">
+                            <button type="button" id="btnEntrar">Entrar</button>
+                            <button type="button" id="btnLimpar">Limpar</button>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <style>
+
+.tabela-externa {
+    width: 100%;
+}
+ 
+.tabela-externa td {
+    text-align: center;
+}
+ 
+
+.caixa-login {
+    margin: 40px auto;
+    border: 1px solid #999;
+    border-collapse: collapse;
+    padding: 10px;
+}
+ 
+.caixa-login td {
+    padding: 8px 10px;
+}
+ 
+
+.titulo {
+    font-size: 24px;
+    color: blue;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+ 
+
+.rotulo {
+    text-align: right;
+    white-space: nowrap;
+}
+ 
+
+.obs {
+    color: red;
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+    text-align: left;
+    white-space: nowrap;
+}
+ 
+
+.botoes {
+    text-align: center;
+    padding-top: 15px;
+}
+ 
+    </style>
     <a href="index.html">>>>>Voltar ao menu...</a>
     <script src="ex07.js"></script>
 </body>

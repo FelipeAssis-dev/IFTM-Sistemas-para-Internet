@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+ul{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+ul li{
+
+    list-style: none;
+    padding: 20px;
+    border-bottom: black 5px solid;
+}
+a:visited, a:link{
+    color: white;
+    text-decoration: none;
+    padding: 45i  px 20px;
+    display: inline-block;
+    
+}
+ul li:hover{
+    background-color: white;
+    color: green;
+    transition-duration: 0.3s;
+    border-bottom: black 5px solid;
+}
+#face{
+    background-image: url(img/faceBlack.png);
+    background-repeat: no-repeat;
+    background-position:  center;
+    
+}
+#face:hover{
+    background-image: url(img/face.png);
+    background-repeat: no-repeat;
+    background-position:  center;
+    cursor: pointer;
+    border-bottom: blue 5px solid;
+    background-color: rgb(80, 80, 80);
+}
+
+
+#insta{
+    background-image: url(img/instaBlack.png);
+    background-repeat: no-repeat;
+    background-position:  center;
+    
+}
+#insta:hover{
+    background-image: url(img/insta.png);
+    background-repeat: no-repeat;
+    background-position:  center;
+    cursor: pointer;
+    border-bottom: rgb(129, 14, 158) 5px solid;
+    background-color: rgb(80, 80, 80);
+}
+
+#maps{
+    background-image: url(img/mapsBlack.png);
+    background-repeat: no-repeat;
+    background-position:  center;
+    
+}
+#maps:hover{
+    background-image: url(img/maps.png);
+    background-repeat: no-repeat;
+    background-position:  center;
+    cursor: pointer;
+    border-bottom: rgb(63, 149, 219) 5px solid;
+    background-color: rgb(80, 80, 80);
+}
+
+#twitter{
+    background-image: url(img/twitterBlack.png);
+    background-repeat: no-repeat;
+    background-position:  center;
+    
+}
+#twitter:hover{
+    background-image: url(img/twitter.png);
+    background-repeat: no-repeat;
+    background-position:  center;
+    cursor: pointer;
+    border-bottom: rgb(91, 183, 226) 5px solid;
+    background-color: rgb(80, 80, 80);
+}
+
+#youtube{
+    background-image: url(img/youtubeBlack.png);
+    background-repeat: no-repeat;
+    background-position:  center;
+    
+}
+#youtube:hover{
+    background-image: url(img/youtube.png);
+    background-repeat: no-repeat;
+    background-position:  center;
+    cursor: pointer;
+    border-bottom: rgb(255, 0, 0) 5px solid;
+    background-color: rgb(80, 80, 80);
+}
+

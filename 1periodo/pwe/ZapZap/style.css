@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nome{
+    text-align: center;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+
+}
+#nome img{
+    width: 90px;
+    transition: all 0.5s;
+}
+#nome img:hover{
+    transform: scale(1.5);
+    margin:23px;
+    cursor: pointer;
+}
